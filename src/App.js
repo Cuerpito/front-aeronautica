@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import Principal from './componente/Principal';
 //import ListaULM from './componente/SeleccionQuiz';
