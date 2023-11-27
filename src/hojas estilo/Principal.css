@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid{
+  background-color: #0a141d;
+}
+
+.conta {
+  width: 98.77vw;
+  height: 130vh;
+  background: url(../img/pexels-eberhard-grossgasteiger-1421903\ \(1\).jpg);
+}
+
+.imFit{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.img-fluid{
+  margin-top: 17px;
+  padding: 50px;
+  height:500px;
+  width: 400px;
+  border-radius: 300px;
+  text-align: center;
+}
+
+/* SLINDER RESPONSIVE 3D */
+.Escritos{
+  position: relative;
+  top: 110px;
+  left: 14%;
+  width: 70%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Escritos h1{
+  color: white;
+  font-weight: 900;
+}
+
+.Escritos p{
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+  position: relative;
+  top: 20px;
+  left: 10%;
+  width: 80%;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.Escritos h2{
+  color: #fff;
+  position: relative;
+  top: 30px;
+  left: 10%;
+  width: 80%;
+  font-weight: 700;
+
+}
+.box1 {
+  position: relative;
+  top: 15%;
+  left: 40%;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: animate 20s linear infinite;
+}
+@keyframes animate {
+  0% {
+      transform: perspective(1000px) rotateY(0deg);
+  }
+  100% {
+      transform: perspective(1000px) rotateY(360deg);
+  }
+}
+.box1 span {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i)* 45deg)) translateZ(400px);
+  -webkit-box-reflect: below 0px linear-gradient(transparent,transparent, #0004);
+}
+.box1 span img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+/*:::::Pie de Pagina*/
+.pie-pagina{
+width: 100%;
+background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+width: 100%;
+max-width: 1200px;
+margin: auto;
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap:50px;
+padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+width: 150px;
+height: 110px;
+border-radius: 20px;
+}
+
+
+.pie-pagina .grupo-1 .box h2{
+color: #fff;
+margin-bottom: 20px;
+font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+color: #efefef;
+margin-bottom: 0px;
+}
+.pie-pagina .grupo-1 .red-social a{
+display: inline-block;
+text-decoration: none;
+width: 45px;
+height: 45px;
+line-height: 45px;
+color: #fff;
+margin-right: 10px;
+background-color: #0d2033;
+text-align: center;
+transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+color: aqua;
+}
+.pie-pagina .grupo-2{
+background-color: #0a1a2a;
+padding: 15px 10px;
+text-align: center;
+color: #fff;
+}
+.pie-pagina .grupo-2 small{
+font-size: 15px;
+}
+
+@media screen and (max-width:1200px){
+  .conta {
+    width: 100vw;
+    height: 135vh;
+  }
+}
+
+@media screen and (max-width:980px){
+  .box1 span {
+    transform: rotateY(calc(var(--i)* 45deg)) translateZ(300px);
+  }
+  .conta {
+    height: 145vh;
+  }
+}
+
+@media screen and (max-width:800px){
+.pie-pagina .grupo-1{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap:30px;
+    padding: 35px 0px;
+  }
+  .texto h2 {
+    font-size: 25px;
+  }
+  .texto p {
+    font-size: 10px;
+  }
+  .box1 {
+    width: 150px;
+    height: 150px;
+  }
+  .box1 span {
+    transform: rotateY(calc(var(--i)* 45deg)) translateZ(270px);
+  }
+}
+
+@media screen and (max-width:750px){
+  .conta {
+    height: 115vh;
+  }
+}
+
+@media screen and (max-height:650px){
+  .conta {
+    height: 160vh;
+  }
+}
+
+@media screen and (max-width:650px){
+
+.box1 {
+  width: 100px;
+  height: 100px;
+}
+.box1 span {
+  transform: rotateY(calc(var(--i)* 45deg)) translateZ(200px);
+}
+}
+
+@media screen and (max-height:600px){
+  .conta {
+    height: 180vh;
+  }
+}
+
+@media screen and (max-width:580px){
+  .conta {
+    height: 105vh;
+  }
+}
+
+@media screen and (max-height:520px){
+  .conta {
+    height: 230vh;
+  }
+}
+
+@media screen and (max-width:500px){
+
+  .conta {
+    height: 90vh;
+  }
+
+  .box1 {
+    position: relative;
+    top: 10%;
+    width: 70px;
+    height: 70px;
+  }
+  .box1 span {
+    transform: rotateY(calc(var(--i)* 45deg)) translateZ(130px);
+  }
+  }
+
+  @media screen and (max-height:420px){
+    .conta {
+      height: 250vh;
+    }
+  }
+
+  @media screen and (max-width:400px){
+
+    .conta {
+      height: 105vh;
+    }
+  }

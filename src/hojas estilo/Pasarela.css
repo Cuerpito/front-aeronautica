@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.general-suscripcion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/suscripcion.jpg);
+    background-size:cover;
+}
+
+.container{
+    width: 800px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4) ;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;  
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 ); 
+}
+
+.titulo-Pago{
+    font-size: 60px;
+}
+
+.center{
+    width: 180px !important;
+    height: 35px !important;
+    font-size: 20px !important;
+    cursor: pointer !important;
+    justify-content: center !important;
+    color: white !important;
+    background-color: rgb(41, 40, 40) !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-size: 17px !important;
+    font-weight: 900 !important;
+}
+.formL{
+    display: flex;
+    justify-content: center;
+
+}
+@media screen and (max-width:570px){
+    .container{
+    width: 400px !important;
+    font-size: 20px;       
+    }
+    .titulo-Pago{
+        font-size: 40PX;
+    }
+}
+@media screen and (max-width:430px){
+    .container{
+    width: 200px !important;
+    font-size: 10px;       
+    }
+    .titulo-Pago{
+        font-size: 20PX;
+    }
+
+    .letraArriba, .letraAbajo{
+        font-size: 10px;
+    }
+}

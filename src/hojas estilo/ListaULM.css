@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.general-ULM {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/ListaULM.jpg);
+    background-size: cover;
+}
+
+.cuadro-botones-ULM {
+    width: 70%;
+    display: flex;  /* Establece un contenedor flexible */
+    justify-content: space-between; /* Espacio entre los botones */
+}
+
+.parrafos-ULM {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.parrafos-ULM p{
+    width: 1000px;
+    text-align: center;
+    color: rgb(12, 11, 11);
+    background-color: rgba(0,0,0,0.4) !important;
+    font-size: 50px;
+    border-radius: 20px;
+    font-weight: 700;  
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 ) !important;   
+}
+
+.btn-ULM{
+    width: 350px;
+    color: white !important;
+    background-color: rgba(0,0,0,0.4) !important;
+    border: none;
+    font-size: 13px !important;
+    font-weight: 900 !important;
+    box-shadow: 0 2px 5px rgb(0, 0, 0,.9 ) !important;   
+}
+
+.btn-ULM:hover {
+    background-color:black!important;
+    border: none;
+    color: #fff;
+    box-shadow: 0 2px 5px rgb(0, 0, 0,.9 ) !important;    
+}
+.container-pdf-ULM{
+    width: 50%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.Pdf-ULM{
+    width: 90px;
+    height: 100px;
+    
+}
+.titulo-pdf-ULM{
+    font-weight: 700;
+    color: #fff;
+}
+
+@media screen and (max-width:1005px){
+
+    .parrafos-ULM p{
+        width: 700px;
+        font-size: 35px;
+    }
+    .btn-ULM{
+        width: 250px;
+        font-size: 8px !important;
+    }
+    .Pdf-ULM{
+        width: 70px;
+        height: 80px;
+        
+    }
+}
+
+@media screen and (max-width:730px){
+
+    .parrafos-ULM p{
+        width: 550px;
+        font-size: 25px;
+    }
+    .btn-ULM{
+        width: 180px;
+        font-size: 6px !important;
+    }
+    .Pdf-ULM{
+        width: 40px;
+        height: 50px;   
+    }
+    .titulo-pdf-ULM{
+       font-size: 8px;
+    }
+}
+
+
+@media screen and (max-width:550px){
+    .cuadro-botones-ULM{
+        flex-direction: column;
+       align-items: center;
+    }
+    .parrafos-ULM p{
+        width: 350px;
+        font-size: 18px;
+    }
+    .btn-ULM{
+        width: 120px;
+        font-size: 4px !important;
+    }
+}
+
+@media screen and (max-width:550px){
+    .parrafos-ULM p{
+        width: 250px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:260px){
+    .parrafos-ULM p{
+        width: 200px;
+        font-size: 10px;
+    }
+    .btn-ULM{
+        width: 100px;
+        font-size: 3px !important;
+    }
+}
+

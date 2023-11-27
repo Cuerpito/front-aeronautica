@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.general-Radiofonista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/seleccionULM.jpg);
+    background-size: cover;
+}
+
+.cuadro-botones-Radiofonista{
+    width: 70%;
+    display: flex;  /* Establece un contenedor flexible */
+    justify-content: space-between; /* Espacio entre los botones */
+}
+
+.parrafos-Radiofonista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.parrafos-Radiofonista p{
+    width: 1000px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4) !important;
+    color: rgb(125, 8, 8);
+    border-radius: 20px;
+    font-size: 50px;
+    font-weight: 700;  
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 );
+}
+
+.btn-Radiofonista{
+    width: 45%;
+    color: white !important;
+    background-color: rgb(85, 10, 10) !important;
+    border: none;
+    font-size: 17px !important;
+    font-weight: 900 !important;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 ) !important; 
+}
+
+.btn-Radiofonista:hover{
+    background-color:rgb(29, 28, 28)!important;
+    border: none;
+    color: #fff;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 ) !important;    
+}
+
+.container-pdf{
+    width: 50%;
+    height: 20%;
+    display: flex;  /* Establece un contenedor flexible */
+    justify-content: space-between; /* Espacio entre los botones */
+}
+
+.Pdf{
+    width: 90px;
+    height: 100px;
+}
+
+.titulo-pdf-RDF{
+    font-weight: 700;
+    color: #fff;
+}
+
+
+@media screen and (max-width:1005px){
+
+    .parrafos-Radiofonista p{
+        width: 700px;
+        font-size: 35px;
+    }
+    .btn-Radiofonista{
+        width: 250px;
+        font-size: 8px !important;
+    }
+    .PdfRadiofonistUno{
+        width: 70px;
+        height: 80px;
+    }
+    .Pdf{
+        width: 70px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width:730px){
+
+    .parrafos-Radiofonista p{
+        width: 550px;
+        font-size: 25px;
+    }
+    .btn-Radiofonista{
+        width: 180px;
+        font-size: 6px !important;
+    }
+    .PdfRadiofonistUno{
+        width: 40px;
+        height: 50px;   
+    }
+    .titulo-pdf-Radiofonista{
+       font-size: 8px;
+    }
+
+    .Pdf{
+        width: 50px;
+        height: 60px;
+    }
+}
+
+
+@media screen and (max-width:550px){
+    .cuadro-botones-Radiofonista{
+        flex-direction: column;
+       align-items: center;
+    }
+    .parrafos-Radiofonista p{
+        width: 350px;
+        font-size: 18px;
+    }
+    .btn-Radiofonista{
+        width: 120px;
+        font-size: 4px !important;
+    }
+
+    .Pdf{
+        width: 30px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:260px){
+    .parrafos-Radiofonista p{
+        width: 200px;
+        font-size: 10px;
+    }
+    .btn-Radiofonista{
+        width: 100px;
+        font-size: 3px !important;
+    }
+
+    
+}
+

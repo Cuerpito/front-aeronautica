@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.general-PPL {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/ListaPPL.jpg);
+    background-size: cover;
+}
+
+.cuadro-botones-PPL {
+    width: 70%;
+    display: flex;  /* Establece un contenedor flexible */
+    justify-content: space-between; /* Espacio entre los botones */
+}
+
+.parrafos-PPL {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.parrafos-PPL p{
+    width: 1000px;
+    text-align: center;
+    color: rgb(12, 11, 11);
+    background-color: rgba(0,0,0,0.4) !important;
+    font-size: 50px;
+    border-radius: 20px;
+    font-weight: 700;  
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 ) !important;   
+}
+
+.btn-PPL{
+    width: 350px;
+    color: white !important;
+    background-color: rgba(0,0,0,0.4) !important;
+    border: none;
+    font-size: 13px !important;
+    font-weight: 900 !important;
+    box-shadow: 0 2px 5px rgb(0, 0, 0,.9 ) !important;   
+}
+
+.btn-PPL:hover{
+    background-color:black!important;
+    border: none;
+    color: #fff;
+    box-shadow: 0 2px 5px rgb(0, 0, 0,.9 ) !important; 
+}
+
+@media screen and (max-width:1005px){
+
+    .parrafos-PPL p{
+        width: 700px;
+        font-size: 35px;
+    }
+    .btn-PPL{
+        width: 250px;
+        font-size: 8px !important;
+    }
+}
+
+@media screen and (max-width:730px){
+
+    .parrafos-PPL p{
+        width: 550px;
+        font-size: 25px;
+    }
+    .btn-PPL{
+        width: 180px;
+        font-size: 6px !important;
+    }
+
+}
+
+
+@media screen and (max-width:550px){
+    .cuadro-botones-PPL{
+        flex-direction: column;
+       align-items: center;
+    }
+    .parrafos-PPL p{
+        width: 350px;
+        font-size: 18px;
+    }
+    .btn-PPL{
+        width: 120px;
+        font-size: 4px !important;
+    }
+}
+
+@media screen and (max-width:550px){
+    .parrafos-PPL p{
+        width: 250px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:260px){
+    .parrafos-PPL p{
+        width: 200px;
+        font-size: 10px;
+    }
+    .btn-PPL{
+        width: 100px;
+        font-size: 3px !important;
+    }
+}
+

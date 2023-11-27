@@ -1,0 +1,67 @@
+.container_general_SuscripcionInactiva {
+
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/ActualizarSuscripcion.jpg);
+    background-size: cover;
+  }
+  .Container_Principal_SuscripcionInactiva {
+    position: absolute;
+      width: 40%;
+      left: 50%;
+      top: 50%;
+      font-size: 20px;
+      transform: translate(-50%, -50%);
+      padding: 40px;
+      border-radius: 20px;
+      background: rgba(0,0,0,0.6);
+      box-shadow: 8px 8px 12px rgb(161, 161, 149), -8px -8px 12px white;
+  }
+  
+  
+  .Container_Secundario_SuscripcionInactiva {
+    text-align: center;
+  }
+  .Logo_SuscripcionInactiva {
+    margin: 10px;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+  }
+  
+  .titulo_login_SuscripcionInactiva {
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .Letras_Usuario_SuscripcionInactiva {
+    color: #fff;
+    font-weight: bold;
+  }
+  .textInput_SuscripcionInactiva{
+    border-radius: 10px;
+    width: 90%;
+    font-size: 15px;
+    height: 30px;
+  }
+  .form-select_SuscripcionInactiva{
+  font-size: 15px;
+  }
+  
+  @media screen and (max-width:950px){
+    .textInput_SuscripcionInactiva{
+      font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width:800px){
+    .Container_Principal_SuscripcionInactiva{
+        width: 60%;
+    }
+  }
+  
+  @media screen and (max-width:600px){
+    .Container_Principal_SuscripcionInactiva{
+        width: 80%;
+    }
+  }

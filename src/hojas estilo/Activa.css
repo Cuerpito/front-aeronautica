@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.general-SuscripcionActiva {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/suscripcionOk.jpg);
+    background-size: cover;
+}
+
+.cuadro-botones-SuscripcionActiva {
+    width: 60%;
+    display: flex;  /* Establece un contenedor flexible */
+    justify-content: space-between; /* Espacio entre los botones */
+}
+
+.parrafos-SuscripcionActiva {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.parrafos-SuscripcionActiva p{
+    width: 1100px;
+    text-align: center;
+    color: rgb(12, 11, 11);
+    background-color: #00000066 !important;
+    font-size: 50px;
+    border-radius: 20px;
+    font-weight: 700;  
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 ) !important;   
+}
+
+.btn-SuscripcionActiva{
+    width: 360px;
+    color: white !important;
+    background-color: rgba(0,0,0,0.4) !important;
+    border: none;
+    font-size: 17px !important;
+    font-weight: 900 !important;
+    box-shadow: 0 2px 5px rgb(0, 0, 0,.9 ) !important;   
+}
+
+.btn-SuscripcionActiva:hover {
+    background-color:black!important;
+    border: none;
+    color: #fff;
+    box-shadow: 0 2px 5px rgb(0, 0, 0,.9 ) !important;    
+}
+
+@media screen and (max-width:1120px){
+    .parrafos-SuscripcionActiva p{
+        width: 800px;
+        font-size: 30px;
+    }
+    .btn-SuscripcionActiva{
+        width: 200px;
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width:820px){
+    .parrafos-SuscripcionActiva p{
+        width: 500px;
+        font-size: 20px;
+    }
+    .btn-SuscripcionActiva{
+        width: 150px;
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width:520px){
+    .parrafos-SuscripcionActiva p{
+        width: 300px;
+        font-size: 15px;
+    }
+    .btn-SuscripcionActiva{
+        width: 100px;
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width:300px){
+    .parrafos-SuscripcionActiva p{
+        width: 200px;
+        font-size: 10px;
+    }
+    .btn-SuscripcionActiva{
+        width: 60px;
+        font-size: 5px !important;
+    }
+}

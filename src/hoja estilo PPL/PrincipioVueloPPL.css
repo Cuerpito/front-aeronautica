@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.general-principioVueloPPL {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 98.8vw;
+    height: 160vh;
+    background-image: url(../img/seleccionPPL.jpg);
+    background-size: cover;
+}
+
+.cuadro-botones-principioVueloPPL{
+    width: 70%;
+    display: flex;  /* Establece un contenedor flexible */
+    justify-content: space-between; /* Espacio entre los botones */
+}
+
+.parrafos-principioVueloPPL{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.parrafos-principioVueloPPL p{
+    width: 1000px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4) !important;
+    color: rgb(125, 8, 8);
+    border-radius: 20px;
+    font-size: 50px;
+    font-weight: 700;  
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 ); 
+}
+
+.btn-principioVueloPPL{
+    width: 30%;
+    color: white !important;
+    background-color: rgb(85, 10, 10) !important;
+    border: none;
+    font-size: 15px !important;
+    font-weight: 900 !important;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 ) !important;  
+}
+
+.btn-principioVueloPPL:hover{
+    background-color:rgb(29, 28, 28)!important;
+    border: none;
+    color: #fff;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 ) !important; 
+}
+
+.principio-video-uno-PPL {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.principio-video-dos-PPL {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width:1005px){
+
+    .parrafos-principioVueloPPL p{
+        width: 700px;
+        font-size: 35px;
+    }
+    .btn-principioVueloPPL{
+        width: 160px;
+        font-size: 8px !important;
+    }
+    .pv1-PPL{
+        width: 180px;
+        height: 150px;
+    }
+    .principio-video-uno-PPL {
+       height: 10%;
+    }
+}
+
+@media screen and (max-width:730px){
+
+    .parrafos-principioVueloPPL p{
+        width: 550px;
+        font-size: 25px;
+    }
+    .btn-principioVueloPPL{
+        width: 130px;
+        font-size: 6px !important;
+    }
+    .pv1-PPL{
+        width: 150px;
+        height: 110px;   
+    }
+    .principio-video-uno-PPL {
+        height: 7%;
+     }
+}
+
+
+@media screen and (max-width:555px){
+    .cuadro-botones-principioVueloPPL{
+        flex-direction: column;
+       align-items: center;
+    }
+    .parrafos-principioVueloPPL p{
+        width: 350px;
+        font-size: 18px;
+    }
+    .btn-principioVueloPPL{
+        width: 120px;
+        font-size: 4px !important;
+    }
+    .pv1-PPL{
+        width: 100px;
+        height: 80px;   
+    }
+    .principio-video-uno-PPL {
+        height: 5%;
+     }
+}
+
+@media screen and (max-width:380px){
+    .parrafos-principioVueloPPL p{
+        width: 200px;
+        font-size: 10px;
+    }
+    .btn-principioVueloPPL{
+        width: 100px;
+        font-size: 3px !important;
+    }
+    .pv1-PPL{
+        width: 60px;
+        height: 50px;   
+    }
+}

@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.general-legislacionAerea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/seleccionPPL.jpg);
+    background-size: cover;
+}
+
+.cuadro-botones-legislacionAerea{
+    width: 70%;
+    display: flex;  /* Establece un contenedor flexible */
+    justify-content: space-between; /* Espacio entre los botones */
+}
+
+.parrafos-legislacionAerea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.parrafos-legislacionAerea p{
+    width: 1000px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4) !important;
+    color: rgb(125, 8, 8);
+    border-radius: 20px;
+    font-size: 50px;
+    font-weight: 700;  
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 ); 
+}
+
+.btn-legislacionAerea{
+    width: 30%;
+    color: white !important;
+    background-color: rgb(85, 10, 10) !important;
+    border: none;
+    font-size: 14px !important;
+    font-weight: 900 !important;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 ) !important; 
+}
+
+.btn-legislacionAerea:hover{
+    background-color:rgb(29, 28, 28)!important;
+    border: none;
+    color: #fff;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 ) !important; 
+}
+
+@media screen and (max-width:1005px){
+    .parrafos-legislacionAerea p{
+        width: 700px;
+        font-size: 35px;
+    }
+    .btn-legislacionAerea{
+        width: 160px;
+        font-size: 8px !important;
+    }
+}
+
+@media screen and (max-width:730px){
+
+    .parrafos-legislacionAerea p{
+        width: 550px;
+        font-size: 25px;
+    }
+    .btn-legislacionAerea{
+        width: 130px;
+        font-size: 6px !important;
+    }
+}
+
+
+@media screen and (max-width:555px){
+    .cuadro-botones-legislacionAerea{
+        flex-direction: column;
+       align-items: center;
+    }
+    .parrafos-legislacionAerea p{
+        width: 350px;
+        font-size: 18px;
+    }
+    .btn-legislacionAerea{
+        width: 120px;
+        font-size: 4px !important;
+    }
+}
+
+@media screen and (max-width:380px){
+    .parrafos-legislacionAerea p{
+        width: 200px;
+        font-size: 10px;
+    }
+    .btn-legislacionAerea{
+        width: 100px;
+        font-size: 3px !important;
+    }
+
+}

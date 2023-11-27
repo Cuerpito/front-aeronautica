@@ -1,0 +1,75 @@
+.container_general_ActualizarCliente {
+
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/ActualizarCliente.jpg);
+    background-size: cover;
+  }
+  .Container_Principal_ActualizarCliente {
+    position: absolute;
+      left: 50%;
+      top: 50%;
+      font-size: 12px;
+      transform: translate(-50%, -50%);
+      padding: 40px;
+      border-radius: 20px;
+      background: rgba(0,0,0,0.6);
+      box-shadow: 8px 8px 12px rgb(161, 161, 149), -8px -8px 12px white;
+  }
+  
+  
+  .Container_Secundario_ActualizarCliente {
+    text-align: center;
+  }
+  .Logo_Actualizar {
+    margin: -10px;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  
+  .titulo_login_ActualizarCliente {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .titulo_login_ActualizarClienteTitulo {
+    margin: 10px;;
+    font-weight: 700;
+    color: #f15252;
+  }
+
+  .Letras_ActualizarCliente {
+    color: #fff;
+    font-weight: bold;
+  }
+  .textInputFun{
+    border-radius: 10px;
+    font-size: 12px;
+    width: 80%;
+  }
+  
+  @media screen and (max-width:700px){
+    .textInputFun{
+      font-size: 8px;
+    }
+  }
+
+  @media screen and (max-width:520px){
+    .textInputFun{
+      font-size: 6px;
+    }
+  }
+
+  @media screen and (max-width:300px){
+    .Container_Principal_ActualizarCliente{
+      width: 180px;
+      font-size: 5px;
+    }
+
+    .titulo_login_ActualizarCliente{
+      font-size: 10px;
+    }
+  }

@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.general-PrincipioVuelo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 98.8vw;
+    height: 160vh;
+    background-image: url(../img/seleccionULM.jpg);
+    background-size: cover;
+}
+
+.cuadro-botones-PrincipioVuelo{
+    width: 70%;
+    display: flex;  /* Establece un contenedor flexible */
+    justify-content: space-between; /* Espacio entre los botones */
+}
+
+.parrafos-PrincipioVuelo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.parrafos-PrincipioVuelo p{
+    width: 1000px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4) !important;
+    color: rgb(125, 8, 8);
+    border-radius: 20px;
+    font-size: 50px;
+    font-weight: 700;  
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 );
+    margin: auto;
+}
+
+.btn-PrincipioVuelo{
+    width: 45%;
+    color: white !important;
+    background-color: rgb(85, 10, 10) !important;
+    border: none;
+    font-size: 17px !important;
+    font-weight: 900 !important;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 ) !important;   
+}
+
+.btn-PrincipioVuelo:hover{
+    background-color:rgb(29, 28, 28)!important;
+    border: none;
+    color: #fff;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 ) !important;   
+}
+
+.principio-video-uno-ULM {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.principio-video-dos-ULM {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (max-width:1005px){
+
+    .parrafos-PrincipioVuelo p{
+        width: 700px;
+        font-size: 35px;
+    }
+    .btn-PrincipioVuelo{
+        width: 250px;
+        font-size: 8px !important;
+    }
+    .pv1-ULM{
+        width: 220px;
+        height: 150px;
+    }
+    .principio-video-uno-ULM {
+       height: 10%;
+    }
+}
+
+@media screen and (max-width:730px){
+
+    .parrafos-PrincipioVuelo p{
+        width: 550px;
+        font-size: 25px;
+    }
+    .btn-PrincipioVuelo{
+        width: 180px;
+        font-size: 6px !important;
+    }
+    .pv1-ULM{
+        width: 150px;
+        height: 110px;   
+    }
+    .principio-video-uno-ULM {
+        height: 7%;
+     }
+}
+
+
+@media screen and (max-width:555px){
+    .cuadro-botones-PrincipioVuelo{
+        flex-direction: column;
+       align-items: center;
+    }
+    .parrafos-PrincipioVuelo p{
+        width: 350px;
+        font-size: 18px;
+    }
+    .btn-PrincipioVuelo{
+        width: 120px;
+        font-size: 4px !important;
+    }
+    .pv1-ULM{
+        width: 100px;
+        height: 80px;   
+    }
+    .principio-video-uno-ULM {
+        height: 5%;
+     }
+}
+
+@media screen and (max-width:260px){
+    .parrafos-PrincipioVuelo p{
+        width: 200px;
+        font-size: 10px;
+    }
+    .btn-PrincipioVuelo{
+        width: 100px;
+        font-size: 3px !important;
+    }
+}

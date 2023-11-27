@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.general-seleccion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/Seleccion.jpg);
+    background-size: cover;
+}
+
+.cuadro-botones{
+    width: 50%;
+    display: flex;  /* Establece un contenedor flexible */
+    justify-content: space-between; /* Espacio entre los botones */
+}
+
+.parrafos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.parrafos p{
+    color: white;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.btn-botonSele{
+    color: black !important;
+    background-color: rgba(255,0,0,0.3) !important;
+    border-color: black !important;
+    font-weight: 700 !important;
+}
+
+.btn-botonSele:hover{
+    color: black !important;
+    background-color: rgba(198, 198, 211, 0.4) !important;
+    border-color: black !important;
+    font-weight: 700 !important;
+}
+
+.seleccion{
+    width: 200px !important; 
+}
+
+@media screen and (max-width:1012px){
+    .parrafos p{
+        font-size: 23px !important;
+    }
+    .seleccion{
+        width: 130px !important; 
+        font-size: 10px !important;
+    }
+}
+
+
+@media screen and (max-width:710px){
+    .parrafos p{
+        font-size: 15px !important;
+    }
+    .seleccion{
+        width: 80px !important; 
+        font-size: 6px !important;
+    }
+}
+
+@media screen and (max-width:460px){
+    .parrafos p{
+        font-size: 10px !important;
+    }
+    .seleccion{
+        width: 60px !important; 
+        font-size: 5px !important;
+    }
+}
+
+
+@media screen and (max-width:310px){
+    .parrafos p{
+        font-size: 8px !important;
+    }
+   
+}

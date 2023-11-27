@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.general-DerechoAereo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 98.8vw;
+    height: 130vh;
+    background-image: url(../img/ListaULM.jpg);
+    background-size: cover;
+}
+
+.cuadro-botones-DerechoAereo{
+    width: 70%;
+    display: flex;  /* Establece un contenedor flexible */
+    justify-content: space-between; /* Espacio entre los botones */
+}
+
+.parrafos-DerechoAereo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.parrafos-DerechoAereo p{
+    width: 990px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4) !important;
+    color: rgb(125, 8, 8);
+    border-radius: 20px;
+    font-size: 50px;
+    font-weight: 700;  
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 );  
+}
+
+.btn-DerechoAereo{
+    width: 45%;
+    color: white !important;
+    background-color: rgb(85, 10, 10) !important;
+    border: none;
+    font-size: 17px !important;
+    font-weight: 900 !important;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 ) !important; 
+}
+
+.btn-DerechoAereo:hover{
+    background-color:rgb(29, 28, 28)!important;
+    border: none;
+    color: #fff;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0,1 ) !important;  
+}
+
+.derecho-video-uno {
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:1005px){
+
+    .parrafos-DerechoAereo p{
+        width: 700px;
+        font-size: 35px;
+    }
+    .btn-DerechoAereo{
+        width: 250px;
+        font-size: 8px !important;
+    }
+    .derecho-video-uno{
+        width: 220px;
+        height: 150px;
+        
+    }
+}
+
+@media screen and (max-width:730px){
+
+    .parrafos-DerechoAereo p{
+        width: 550px;
+        font-size: 25px;
+    }
+    .btn-DerechoAereo{
+        width: 180px;
+        font-size: 6px !important;
+    }
+    .derecho-video-uno{
+        width: 150px;
+        height: 110px;   
+    }
+}
+
+
+@media screen and (max-width:555px){
+    .cuadro-botones-DerechoAereo{
+        flex-direction: column;
+       align-items: center;
+    }
+    .parrafos-DerechoAereo p{
+        width: 350px;
+        font-size: 18px;
+    }
+    .btn-DerechoAereo{
+        width: 120px;
+        font-size: 4px !important;
+    }
+    .derecho-video-uno{
+        width: 100px;
+        height: 80px;   
+    }
+}
+
+
+@media screen and (max-width:260px){
+    .parrafos-DerechoAereo p{
+        width: 200px;
+        font-size: 10px;
+    }
+    .btn-DerechoAereo{
+        width: 100px;
+        font-size: 3px !important;
+    }
+}
+

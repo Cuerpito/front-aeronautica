@@ -1,0 +1,69 @@
+.table-responsive {
+
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/ListarBase.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.Letras_consulta{
+    color: #fff;
+    font-weight: 700;
+}
+.textInputFunConsulta{
+    width: 40%;
+    font-weight: 400;
+    border-radius: 20px;
+}
+
+.textInputFunConsulta::placeholder{
+    color: black;
+    font-size: 10px;
+}
+
+.btn-descargar{
+    width: 20% !important;
+    font-size: 10px;
+}
+
+.btn-base{
+    width: 20% !important;
+    font-size: 10px;
+}
+
+@media screen and (max-width:810px){
+
+    .btn-descargar{
+        font-size: 7px;
+    }
+    .btn-base{  
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width:560px){
+    .btn-descargar{
+        font-size: 5px;
+    }
+    .btn-base{  
+        font-size: 5px;
+    }
+    .textInputFunConsulta::placeholder{
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width:300px){
+    .Letras_consulta{
+        font-size: 8px;
+    }
+    .btn-descargar{
+        font-size: 3px;
+    }
+    .btn-base{  
+        font-size: 3px;
+    }
+    .textInputFunConsulta::placeholder{
+        font-size: 5px;
+    }
+}
