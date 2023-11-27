@@ -166,6 +166,13 @@ color: #fff;
 font-size: 15px;
 }
 
+@media screen and (min-height:1000px){
+  .Escritos{
+    position: relative;
+    top: 300px;
+  }
+}
+
 @media screen and (max-width:1200px){
   .conta {
     width: 100vw;
