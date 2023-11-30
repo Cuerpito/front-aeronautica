@@ -10,7 +10,8 @@ const cookies = new Cookies();
 
 const STRIPE_PUBLIC_KEY_DEV =
   'pk_test_51Ns7BdFxlOv4gV2Cr4mU5j5ALd479RPRjBS1MJOc4ixxcoj9VolIlL4Y06N1nUFh1kf09bRpkBXGHM5ZfMvpGtqs00r3YryaYs';
-const STRIPE_PUBLIC_KEY_PROD = '';
+const STRIPE_PUBLIC_KEY_PROD =
+  'pk_live_51Ns7BdFxlOv4gV2C6xbP1E5xX5vxdlGabwukEONteGpojU0LrpygyGBQ6IWUYOgvvVtA5furj8pauBOijd83MKeR00o9CTMAww';
 
 const MyCheckoutComponent = () => {
   const stripePublicKey = process.env.NODE_ENV === 'development' ? STRIPE_PUBLIC_KEY_DEV : STRIPE_PUBLIC_KEY_PROD;
@@ -41,7 +42,7 @@ const MyCheckoutComponent = () => {
       //const response = await axios.post("http://localhost:5000/api/charge", {
       operacionPago: operacionPago,
       token: token.id,
-      amount: 3000 // Cambia esto al monto que quieras cobrar
+      amount: 100 // Cambia esto al monto que quieras cobrar 1 EURO ---> 100//////
     });
 
     // Maneja la respuesta del servidor, por ejemplo, muestra un mensaje de éxito

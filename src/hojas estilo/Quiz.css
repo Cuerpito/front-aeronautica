@@ -13,6 +13,10 @@
     background-image: url(../img/Fondo_Quiz.jpg);
     
   }
+
+  .numero-pregunta,.titulo-pregunta{
+    color: white;
+  }
   
   .gg{
     color: #fcbf3d;

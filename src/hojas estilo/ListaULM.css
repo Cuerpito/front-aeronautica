@@ -67,6 +67,7 @@
 .Pdf-ULM{
     width: 90px;
     height: 100px;
+    border-radius: 10px;
     
 }
 .titulo-pdf-ULM{
@@ -111,6 +112,17 @@
 }
 
 
+
+@media screen and (max-height:650px){
+        
+    .general-ULM {
+    font-size: 20%;
+    }
+    .titulo-pdf-ULM{
+        font-size: 8px;
+    }
+}
+
 @media screen and (max-width:550px){
     .cuadro-botones-ULM{
         flex-direction: column;
@@ -123,6 +135,9 @@
     .btn-ULM{
         width: 120px;
         font-size: 4px !important;
+    }
+    .Pdf-ULM{
+        width: 45px;
     }
 }
 

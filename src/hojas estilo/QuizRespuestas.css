@@ -13,9 +13,11 @@
     background-image: url(../img/Fondo_Quiz.jpg);
     
   }
-
-  .pp{
+  .letrasRespuesta{
     color: #fcbf3d;
+  }
+  .pp{
+    color: #3dfc66;
   }
   
   .app {

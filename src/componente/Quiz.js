@@ -1,6 +1,6 @@
 //import preguntas from "../Preguntas/preguntas";
 //import preguntas from "../Preguntas/preguntas";
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 import '../hojas estilo/Quiz.css';
 
 function Quiz() {
@@ -16,19 +16,19 @@ function Quiz() {
   //const [limite, setLimite] = useState(0);
 
   useEffect(() => {
-    const currentTestJSFilePath = localStorage.getItem("currentTestJSFilePath");
+    const currentTestJSFilePath = localStorage.getItem('currentTestJSFilePath');
     console.log(currentTestJSFilePath);
-    const  questions = require(`../${currentTestJSFilePath}`)
+    const questions = require(`../${currentTestJSFilePath}`);
     console.log(questions.default);
     setPreguntas(questions.default);
-  },[])
+  }, []);
 
   function handleAnswerSubmit(isCorrect, e) {
-   // setConTiempo(conTiempo + 1);
+    // setConTiempo(conTiempo + 1);
     // añadir puntuación
     if (isCorrect) setPuntuación(puntuación + 1);
     // añadir estilos de pregunta
-    e.target.classList.add(isCorrect ? "correct" : "incorrect");
+    e.target.classList.add(isCorrect ? 'correct' : 'incorrect');
     // cambiar a la siguiente pregunta
     setCon(0);
     //setLimite(preguntas[preguntaActual].opciones.length);
@@ -38,19 +38,19 @@ function Quiz() {
       if (preguntaActual === preguntas.length - 1) {
         setIsFinished(true);
       } else {
-       // if(conTiempo === limite-1){
+        // if(conTiempo === limite-1){
         setPreguntaActual(preguntaActual + 1);
         setTiempoRestante(40);
         //setConTiempo(0);
-       // }
+        // }
       }
-    setCon(1);  
+      setCon(1);
     }, 1000);
   }
-  
+
   useEffect(() => {
     const intervalo = setInterval(() => {
-      if (tiempoRestante > 0) setTiempoRestante((prev) => prev - con);
+      if (tiempoRestante > 0) setTiempoRestante(prev => prev - con);
       //if (tiempoRestante > 0) setTiempoRestante((prev) => prev - 1);
       if (tiempoRestante === 0) setAreDisabled(true);
     }, 1000);
@@ -60,23 +60,19 @@ function Quiz() {
 
   if (isFinished)
     return (
-      <main className="app">
-        <div className="juego-terminado">
+      <main className='app'>
+        <div className='juego-terminado'>
           <span>
-            {" "}
-            Obtuviste {puntuación} de {preguntas.length}{" "}
+            {' '}
+            Obtuviste {puntuación} de {preguntas.length}{' '}
           </span>
-          <button onClick={() => (window.location.href = "/quiz")}>
-            {" "}
-            Volver a realizar el cuestionario
-          </button>
+          <button onClick={() => (window.location.href = '/quiz')}> Volver a realizar el cuestionario</button>
           <button
             onClick={() => {
               setIsFinished(false);
               setAnswersShown(true);
               setPreguntaActual(0);
-            }}
-          >
+            }}>
             Ver respuestas
           </button>
         </div>
@@ -85,54 +81,39 @@ function Quiz() {
 
   if (answersShown)
     return (
-      <main className="app">
-        <div className="lado-izquierdo">
-          <div className="numero-pregunta">
+      <main className='app'>
+        <div className='lado-izquierdo'>
+          <div className='numero-pregunta'>
             <span> Pregunta {preguntaActual + 1} de</span> {preguntas.length}
           </div>
-          <div className="titulo-pregunta">
-            {preguntas[preguntaActual].titulo}
-          </div>
+          <div className='titulo-pregunta'>{preguntas[preguntaActual].titulo}</div>
           <br></br>
-          <div className="gg">
-            {
-              preguntas[preguntaActual].opciones.filter(
-                (opcion) => opcion.isCorrect
-              )[0].textoRespuesta
-            }
-          </div>
+          <div className='gg'>{preguntas[preguntaActual].opciones.filter(opcion => opcion.isCorrect)[0].textoRespuesta}</div>
           <br></br>
           <button
             onClick={() => {
               if (preguntaActual === preguntas.length - 1) {
-                window.location.href = "/quiz";
+                window.location.href = '/quiz';
               } else {
                 setPreguntaActual(preguntaActual + 1);
               }
-            }}
-          >
-            {preguntaActual === preguntas.length - 1
-              ? "Volver a realizar el cuestionario"
-              : "Siguiente"}
+            }}>
+            {preguntaActual === preguntas.length - 1 ? 'Volver a realizar el cuestionario' : 'Siguiente'}
           </button>
         </div>
       </main>
     );
 
   return (
-    <main className="app">
-      <div className="lado-izquierdo">
-        <div className="numero-pregunta">
+    <main className='app'>
+      <div className='lado-izquierdo'>
+        <div className='numero-pregunta'>
           <span> Pregunta {preguntaActual + 1} de</span> {preguntas.length}
         </div>
-        <div className="titulo-pregunta">
-          {preguntas[preguntaActual]?.titulo}
-        </div>
+        <div className='titulo-pregunta'>{preguntas[preguntaActual]?.titulo}</div>
         <div>
           {!areDisabled ? (
-            <span className="tiempo-restante">
-              Tiempo restante: {tiempoRestante}{" "}
-            </span>
+            <span className='tiempo-restante'>Tiempo restante: {tiempoRestante} </span>
           ) : (
             <button
               onClick={() => {
@@ -143,20 +124,15 @@ function Quiz() {
                 } else {
                   setPreguntaActual(preguntaActual + 1);
                 }
-              }}
-            >
+              }}>
               Continuar
             </button>
           )}
         </div>
       </div>
-      <div className="lado-derecho">
-        {preguntas[preguntaActual]?.opciones.map((respuesta) => (
-          <button
-            disabled={areDisabled}
-            key={respuesta.textoRespuesta}
-            onClick={(e) => handleAnswerSubmit(respuesta.isCorrect, e)}
-          >
+      <div className='lado-derecho'>
+        {preguntas[preguntaActual]?.opciones.map(respuesta => (
+          <button disabled={areDisabled} key={respuesta.textoRespuesta} onClick={e => handleAnswerSubmit(respuesta.isCorrect, e)}>
             {respuesta.textoRespuesta}
           </button>
         ))}
