@@ -42,7 +42,7 @@ const MyCheckoutComponent = () => {
       //const response = await axios.post("http://localhost:5000/api/charge", {
       operacionPago: operacionPago,
       token: token.id,
-      amount: 100 // Cambia esto al monto que quieras cobrar 1 EURO ---> 100//////
+      amount: 500 // Cambia esto al monto que quieras cobrar 1 EURO ---> 100//////
     });
 
     // Maneja la respuesta del servidor, por ejemplo, muestra un mensaje de éxito
