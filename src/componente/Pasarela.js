@@ -38,8 +38,8 @@ const MyCheckoutComponent = () => {
 
   const handleToken = async token => {
     // Envia el token al servidor Node.js
-    const response = await axios.post('https://450dfy2taj.execute-api.us-east-2.amazonaws.com/prod/aeronautica', {
-      //const response = await axios.post("http://localhost:5000/api/charge", {
+    //const response = await axios.post('https://450dfy2taj.execute-api.us-east-2.amazonaws.com/prod/aeronautica', {
+    const response = await axios.post('http://localhost:5000/api/charge', {
       operacionPago: operacionPago,
       token: token.id,
       amount: 500 // Cambia esto al monto que quieras cobrar 1 EURO ---> 100//////
@@ -48,7 +48,7 @@ const MyCheckoutComponent = () => {
     // Maneja la respuesta del servidor, por ejemplo, muestra un mensaje de éxito
     console.log(response);
 
-    if (response.data.message === 'Successful payment') {
+    if (response.data.message === 'successful payment') {
       toast('pago exitoso fue completado', { type: 'Exito' });
       alert(response.data.message);
       axios
@@ -73,6 +73,7 @@ const MyCheckoutComponent = () => {
       toast('pago fallido existe algun problema', { type: 'error' });
       alert(response.data.message);
     }
+    console.log(response);
   };
 
   return (

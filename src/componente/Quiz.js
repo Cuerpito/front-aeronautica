@@ -5,6 +5,7 @@ import '../hojas estilo/Quiz.css';
 
 function Quiz() {
   const [preguntaActual, setPreguntaActual] = useState(0);
+  const [auxPuntuacion, setAuxPuntuacion] = useState(0);
   const [puntuación, setPuntuación] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
   const [tiempoRestante, setTiempoRestante] = useState(40);
@@ -26,7 +27,10 @@ function Quiz() {
   function handleAnswerSubmit(isCorrect, e) {
     // setConTiempo(conTiempo + 1);
     // añadir puntuación
-    if (isCorrect) setPuntuación(puntuación + 1);
+    if (auxPuntuacion === 0) {
+      if (isCorrect) setPuntuación(puntuación + 1);
+      setAuxPuntuacion(1);
+    }
     // añadir estilos de pregunta
     e.target.classList.add(isCorrect ? 'correct' : 'incorrect');
     // cambiar a la siguiente pregunta
@@ -41,11 +45,13 @@ function Quiz() {
         // if(conTiempo === limite-1){
         setPreguntaActual(preguntaActual + 1);
         setTiempoRestante(40);
+        setAuxPuntuacion(0);
         //setConTiempo(0);
         // }
       }
+      console.log(puntuación);
       setCon(1);
-    }, 1000);
+    }, 300);
   }
 
   useEffect(() => {
