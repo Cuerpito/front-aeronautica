@@ -1,168 +1,169 @@
 const preguntas = [
   {
-    titulo: "1 - ¿Cual es el indicativo en radiotelefonía para la estación que presta servicios de control de movimientos en superficie de las aeronaves en la zona de maniobras?",
+    titulo:
+      '1 - ¿Cual es el indicativo en radiotelefonía para la estación que presta servicios de control de movimientos en superficie de las aeronaves en la zona de maniobras?',
     opciones: [
       {
-        textoRespuesta: "Torre",
+        textoRespuesta: 'Torre',
         isCorrect: false
       },
       {
-        textoRespuesta: "Control",
+        textoRespuesta: 'Control',
         isCorrect: false
       },
       {
-        textoRespuesta: "Aproximación",
+        textoRespuesta: 'Aproximación',
         isCorrect: false
       },
       {
-        textoRespuesta: "Tierra",
+        textoRespuesta: 'Tierra',
         isCorrect: true
       }
     ]
   },
   {
-    titulo: "2 - La autorización \"Autorizado para su despegue inmediato en pista 03\" es",
+    titulo: '2 - La autorización "Autorizado para su despegue inmediato en pista 03" es',
     opciones: [
       {
-        textoRespuesta: "Mensaje de regularidad en vuelo",
+        textoRespuesta: 'Mensaje de regularidad en vuelo',
         isCorrect: false
       },
       {
-        textoRespuesta: "Mensaje de urgencias",
+        textoRespuesta: 'Mensaje de urgencias',
         isCorrect: false
       },
       {
-        textoRespuesta: "Mensaje no autorizado",
+        textoRespuesta: 'Mensaje no autorizado',
         isCorrect: false
       },
       {
-        textoRespuesta: "Mensaje de seguridad en vuelo",
+        textoRespuesta: 'Mensaje de seguridad en vuelo',
         isCorrect: true
       }
     ]
   },
   {
-    titulo: "3 - ¿Qué abreviatura se utiliza para el término \"zona de control\"?",
+    titulo: '3 - ¿Qué abreviatura se utiliza para el término "zona de control"?',
     opciones: [
       {
-        textoRespuesta: "CZ",
+        textoRespuesta: 'CZ',
         isCorrect: false
       },
       {
-        textoRespuesta: "CTR",
+        textoRespuesta: 'CTR',
         isCorrect: true
       },
       {
-        textoRespuesta: "CTA",
+        textoRespuesta: 'CTA',
         isCorrect: false
       },
       {
-        textoRespuesta: "CTZ",
+        textoRespuesta: 'CTZ',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "4 - En caso de fallo de comunicaciones, ¿en qué clave debemos responder?",
+    titulo: '4 - En caso de fallo de comunicaciones, ¿en qué clave debemos responder?',
     opciones: [
       {
-        textoRespuesta: "7500",
+        textoRespuesta: '7500',
         isCorrect: false
       },
       {
-        textoRespuesta: "7700",
+        textoRespuesta: '7700',
         isCorrect: false
       },
       {
-        textoRespuesta: "7600",
+        textoRespuesta: '7600',
         isCorrect: true
       },
       {
-        textoRespuesta: "7400",
+        textoRespuesta: '7400',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "5 - Un mensaje de urgencia comienza con la señal radiotelefónica de urgencia repetida 3 veces, esta frase es",
+    titulo: '5 - Un mensaje de urgencia comienza con la señal radiotelefónica de urgencia repetida 3 veces, esta frase es',
     opciones: [
       {
-        textoRespuesta: "URG",
+        textoRespuesta: 'URG',
         isCorrect: false
       },
       {
-        textoRespuesta: "MAYDAY MAYDAY MAYDAY",
+        textoRespuesta: 'MAYDAY MAYDAY MAYDAY',
         isCorrect: false
       },
       {
-        textoRespuesta: "PIN",
+        textoRespuesta: 'PIN',
         isCorrect: false
       },
       {
-        textoRespuesta: "PAN PAN PAN",
+        textoRespuesta: 'PAN PAN PAN',
         isCorrect: true
       }
     ]
   },
   {
-    titulo: "6 - La unidad de medida de frecuencia es",
+    titulo: '6 - La unidad de medida de frecuencia es',
     opciones: [
       {
-        textoRespuesta: "El VHF.",
+        textoRespuesta: 'El VHF.',
         isCorrect: false
       },
       {
-        textoRespuesta: "El Kilohercio.",
+        textoRespuesta: 'El Kilohercio.',
         isCorrect: false
       },
       {
-        textoRespuesta: "El hercio.",
+        textoRespuesta: 'El hercio.',
         isCorrect: true
       },
       {
-        textoRespuesta: "El Megahercio.",
+        textoRespuesta: 'El Megahercio.',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "7 - Según el alfabeto fonético, la letra “U” se dice",
+    titulo: '7 - Según el alfabeto fonético, la letra “U” se dice',
     opciones: [
       {
-        textoRespuesta: "Unión.",
+        textoRespuesta: 'Unión.',
         isCorrect: false
       },
       {
-        textoRespuesta: "Uniford.",
+        textoRespuesta: 'Uniford.',
         isCorrect: false
       },
       {
-        textoRespuesta: "Uniform.",
+        textoRespuesta: 'Uniform.',
         isCorrect: true
       },
       {
-        textoRespuesta: "La a y la c son s.",
+        textoRespuesta: 'La a y la c son s.',
         isCorrect: true
       }
     ]
   },
   {
-    titulo: "8 - Una vez se abandona el TMA el control de salidas nos transferirá al",
+    titulo: '8 - Una vez se abandona el TMA el control de salidas nos transferirá al',
     opciones: [
       {
-        textoRespuesta: "Siguiente control de salidas",
+        textoRespuesta: 'Siguiente control de salidas',
         isCorrect: false
       },
       {
-        textoRespuesta: "Nos aconsejará sintonizar 1215 MHz mientras estemos en territorio español-",
+        textoRespuesta: 'Nos aconsejará sintonizar 1215 MHz mientras estemos en territorio español-',
         isCorrect: false
       },
       {
-        textoRespuesta: "Centro de control de área",
+        textoRespuesta: 'Centro de control de área',
         isCorrect: true
       },
       {
-        textoRespuesta: "Centro de control de influencia",
+        textoRespuesta: 'Centro de control de influencia',
         isCorrect: false
       }
     ]

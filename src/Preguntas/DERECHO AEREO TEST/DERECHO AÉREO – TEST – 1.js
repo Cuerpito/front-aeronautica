@@ -1324,11 +1324,11 @@ const preguntas = [
         titulo: "66. Las aeronaves no volarán en formación mas que cuando se haya convenido y autorizado previamente.",
         opciones: [
             {
-                textoRespuesta: "Verdadero",
+                textoRespuesta: "Verdadero ",
                 isCorrect: true
             },
             {
-                textoRespuesta: "Falso",
+                textoRespuesta: "Falso ",
                 isCorrect: false
             }
         ]
@@ -1434,11 +1434,11 @@ const preguntas = [
         titulo: "72. Área LEP 161. En las cercanías de Ávila. Podemos entrar en ella, con autorización de la torre de Salamanca.",
         opciones: [
             {
-                textoRespuesta: "Verdadero",
+                textoRespuesta: "Verdadero ",
                 isCorrect: false
             },
             {
-                textoRespuesta: "Falso",
+                textoRespuesta: "Falso ",
                 isCorrect: true
             }
         ]

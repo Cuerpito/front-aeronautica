@@ -1,168 +1,169 @@
 const preguntas = [
   {
-    titulo: "1 - ¿Cuál es el código Q para \"marcación verdadera desde la emisora\"?",
+    titulo: '1 - ¿Cuál es el código Q para "marcación verdadera desde la emisora"?',
     opciones: [
       {
-        textoRespuesta: "QFE",
+        textoRespuesta: 'QFE',
         isCorrect: false
       },
       {
-        textoRespuesta: "QDM",
+        textoRespuesta: 'QDM',
         isCorrect: false
       },
       {
-        textoRespuesta: "QTE",
+        textoRespuesta: 'QTE',
         isCorrect: true
       },
       {
-        textoRespuesta: "QDR",
+        textoRespuesta: 'QDR',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "2 - Cómo debe informar un piloto a torre que se encuentra \"listo para el despegue\"",
+    titulo: '2 - Cómo debe informar un piloto a torre que se encuentra "listo para el despegue"',
     opciones: [
       {
-        textoRespuesta: "Listo para salir",
+        textoRespuesta: 'Listo para salir',
         isCorrect: false
       },
       {
-        textoRespuesta: "Listo para salida o listo",
+        textoRespuesta: 'Listo para salida o listo',
         isCorrect: true
       },
       {
-        textoRespuesta: "Listo para alinear",
+        textoRespuesta: 'Listo para alinear',
         isCorrect: false
       },
       {
-        textoRespuesta: "Listo para despegue",
+        textoRespuesta: 'Listo para despegue',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "3 - Cuando se habla de un mensaje de control de tráfico aéreo, se hace referencia a",
+    titulo: '3 - Cuando se habla de un mensaje de control de tráfico aéreo, se hace referencia a',
     opciones: [
       {
-        textoRespuesta: "Servicio",
+        textoRespuesta: 'Servicio',
         isCorrect: false
       },
       {
-        textoRespuesta: "Clase B",
+        textoRespuesta: 'Clase B',
         isCorrect: false
       },
       {
-        textoRespuesta: "Seguridad de vuelo",
+        textoRespuesta: 'Seguridad de vuelo',
         isCorrect: true
       },
       {
-        textoRespuesta: "Regulación de vuelo",
+        textoRespuesta: 'Regulación de vuelo',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "4 - Que frase debemos usar si queremos decir Si",
+    titulo: '4 - Que frase debemos usar si queremos decir Si',
     opciones: [
       {
-        textoRespuesta: "Sí",
+        textoRespuesta: 'Sí',
         isCorrect: false
       },
       {
-        textoRespuesta: "Roger",
+        textoRespuesta: 'Roger',
         isCorrect: false
       },
       {
-        textoRespuesta: "Afirmativo",
+        textoRespuesta: 'Afirmativo',
         isCorrect: false
       },
       {
-        textoRespuesta: "Afirma",
+        textoRespuesta: 'Afirma',
         isCorrect: true
       }
     ]
   },
   {
-    titulo: "5 - En caso de fallo de radio, en qué momento la torre nos enviará las señales de luces",
+    titulo: '5 - En caso de fallo de radio, en qué momento la torre nos enviará las señales de luces',
     opciones: [
       {
-        textoRespuesta: "En viento en cola",
+        textoRespuesta: 'En viento en cola',
         isCorrect: false
       },
       {
-        textoRespuesta: "En final",
+        textoRespuesta: 'En final',
         isCorrect: false
       },
       {
-        textoRespuesta: "En el circuito de fallo de radio, cuando demos la pasada por la torre",
+        textoRespuesta: 'En el circuito de fallo de radio, cuando demos la pasada por la torre',
         isCorrect: true
       },
       {
-        textoRespuesta: "Cuando demos la pasada por encima de la pista en uso",
+        textoRespuesta: 'Cuando demos la pasada por encima de la pista en uso',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "6 - Si existe alguna circunstancia añadida al fallo de radio la cual no permite hacer la pasada por la torre para recibir autorización, por ejemplo poco combustible, o cualquier otra situación de emergencia ¿Qué haría?",
+    titulo:
+      '6 - Si existe alguna circunstancia añadida al fallo de radio la cual no permite hacer la pasada por la torre para recibir autorización, por ejemplo poco combustible, o cualquier otra situación de emergencia ¿Qué haría?',
     opciones: [
       {
-        textoRespuesta: "Ir a otro aeródromo donde sí podamos pasar por la torre",
+        textoRespuesta: 'Ir a otro aeródromo donde sí podamos pasar por la torre',
         isCorrect: false
       },
       {
-        textoRespuesta: "Aterrizar en la pista contraria a la que esté en uso",
+        textoRespuesta: 'Aterrizar en la pista contraria a la que esté en uso',
         isCorrect: false
       },
       {
-        textoRespuesta: "Entrar en circuito cuidando nuestra separación con las demás aeronaves y aterrizar",
+        textoRespuesta: 'Entrar en circuito cuidando nuestra separación con las demás aeronaves y aterrizar',
         isCorrect: true
       },
       {
-        textoRespuesta: "Ninguna es",
+        textoRespuesta: 'Ninguna es',
         isCorrect: true
       }
     ]
   },
   {
-    titulo: "7 - El alcance de recepción en VHF",
+    titulo: '7 - El alcance de recepción en VHF',
     opciones: [
       {
-        textoRespuesta: "Aumenta al disminuir la altura.",
+        textoRespuesta: 'Aumenta al disminuir la altura.',
         isCorrect: false
       },
       {
-        textoRespuesta: "Aumenta al aumentar la velocidad.",
+        textoRespuesta: 'Aumenta al aumentar la velocidad.',
         isCorrect: false
       },
       {
-        textoRespuesta: "Aumenta al aumentar la altura.",
+        textoRespuesta: 'Aumenta al aumentar la altura.',
         isCorrect: true
       },
       {
-        textoRespuesta: "Aumenta al disminuir la velocidad.",
+        textoRespuesta: 'Aumenta al disminuir la velocidad.',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "8 - La abreviatura de “muy alta frecuencia” es",
+    titulo: '8 - La abreviatura de “muy alta frecuencia” es',
     opciones: [
       {
-        textoRespuesta: "HF",
+        textoRespuesta: 'HF',
         isCorrect: false
       },
       {
-        textoRespuesta: "VHF",
+        textoRespuesta: 'VHF',
         isCorrect: true
       },
       {
-        textoRespuesta: "SHF",
+        textoRespuesta: 'SHF',
         isCorrect: false
       },
       {
-        textoRespuesta: "MF",
+        textoRespuesta: 'MF',
         isCorrect: false
       }
     ]

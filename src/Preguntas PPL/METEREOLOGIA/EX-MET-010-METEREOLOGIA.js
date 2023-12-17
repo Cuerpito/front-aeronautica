@@ -1,173 +1,173 @@
 const preguntas = [
   {
-    titulo: "1 - ¿Cuál de las siguientes condiciones favorecen en mayor medida la formación de niebla marina (humo ártico)?",
+    titulo: '1 - ¿Cuál de las siguientes condiciones favorecen en mayor medida la formación de niebla marina (humo ártico)?',
     opciones: [
       {
-        textoRespuesta: "El calentamiento del mar debido a la fuerte radiación solar",
+        textoRespuesta: 'El calentamiento del mar debido a la fuerte radiación solar',
         isCorrect: false
       },
       {
-        textoRespuesta: "aire cálido desplazándose sobre aguas frías",
+        textoRespuesta: 'aire cálido desplazándose sobre aguas frías',
         isCorrect: false
       },
       {
-        textoRespuesta: "aire frío desplazándose sobre aguas cálidas",
+        textoRespuesta: 'aire frío desplazándose sobre aguas cálidas',
         isCorrect: true
       },
       {
-        textoRespuesta: "enfriamiento nocturno de las aguas costeras",
+        textoRespuesta: 'enfriamiento nocturno de las aguas costeras',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "2 - Qué carta de altitud de presión constante es estándar para un nivel de presión de 38662 FT ( FL 390)?",
+    titulo: '2 - Qué carta de altitud de presión constante es estándar para un nivel de presión de 38662 FT ( FL 390)?',
     opciones: [
       {
-        textoRespuesta: "200hPa",
+        textoRespuesta: '200hPa',
         isCorrect: true
       },
       {
-        textoRespuesta: "500hPa",
+        textoRespuesta: '500hPa',
         isCorrect: false
       },
       {
-        textoRespuesta: "700hPa",
+        textoRespuesta: '700hPa',
         isCorrect: false
       },
       {
-        textoRespuesta: "300hPa",
+        textoRespuesta: '300hPa',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "3 - Se formarán nubes, niebla o rocío siempre que:",
+    titulo: '3 - Se formarán nubes, niebla o rocío siempre que:',
     opciones: [
       {
-        textoRespuesta: "se condense vapor de agua",
+        textoRespuesta: 'se condense vapor de agua',
         isCorrect: true
       },
       {
-        textoRespuesta: "exista vapor de agua",
+        textoRespuesta: 'exista vapor de agua',
         isCorrect: false
       },
       {
-        textoRespuesta: "la temperatura prácticamente se iguale con el punto de rocío",
+        textoRespuesta: 'la temperatura prácticamente se iguale con el punto de rocío',
         isCorrect: false
       },
       {
-        textoRespuesta: "la humedad relativa alcance el 98%",
+        textoRespuesta: 'la humedad relativa alcance el 98%',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "4 - En una masa de aire ¿Qué proceso favorece la creación de amplias zonas cubiertas de nubes, NS, AS, y ST?",
+    titulo: '4 - En una masa de aire ¿Qué proceso favorece la creación de amplias zonas cubiertas de nubes, NS, AS, y ST?',
     opciones: [
       {
-        textoRespuesta: "proceso de convección",
+        textoRespuesta: 'proceso de convección',
         isCorrect: false
       },
       {
-        textoRespuesta: "ascenso",
+        textoRespuesta: 'ascenso',
         isCorrect: true
       },
       {
-        textoRespuesta: "radiación",
+        textoRespuesta: 'radiación',
         isCorrect: false
       },
       {
-        textoRespuesta: "descenso vertical",
+        textoRespuesta: 'descenso vertical',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "5 - ¿Cuáles son las características de los vientos de superficie en áreas en las que los mapas meteorológicos muestran isóbaras muy próximas entre sí?",
+    titulo:
+      '5 - ¿Cuáles son las características de los vientos de superficie en áreas en las que los mapas meteorológicos muestran isóbaras muy próximas entre sí?',
     opciones: [
       {
-        textoRespuesta: "Fuertes y atravesando las isóbaras",
+        textoRespuesta: 'Fuertes y atravesando las isóbaras',
         isCorrect: true
       },
       {
-        textoRespuesta: "Fuertes y paralelos a las isóbaras",
+        textoRespuesta: 'Fuertes y paralelos a las isóbaras',
         isCorrect: false
       },
       {
-        textoRespuesta: "Moderados y paralelos a las isóbaras",
+        textoRespuesta: 'Moderados y paralelos a las isóbaras',
         isCorrect: false
       },
       {
-        textoRespuesta: "Muy débiles, pero racheados y atravesando las isóbaras",
+        textoRespuesta: 'Muy débiles, pero racheados y atravesando las isóbaras',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "6 - ¿Cuál de las siguientes son nubes de bajo nivel?:",
+    titulo: '6 - ¿Cuál de las siguientes son nubes de bajo nivel?:',
     opciones: [
       {
-        textoRespuesta: "ST",
+        textoRespuesta: 'ST',
         isCorrect: true
       },
       {
-        textoRespuesta: "AS",
+        textoRespuesta: 'AS',
         isCorrect: false
       },
       {
-        textoRespuesta: "CC",
+        textoRespuesta: 'CC',
         isCorrect: false
       },
       {
-        textoRespuesta: "CG",
+        textoRespuesta: 'CG',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "7 - De las siguientes cuáles son las nubes más bajas",
+    titulo: '7 - De las siguientes cuáles son las nubes más bajas',
     opciones: [
       {
-        textoRespuesta: "Sc",
+        textoRespuesta: 'Sc',
         isCorrect: false
       },
       {
-        textoRespuesta: "Ns",
+        textoRespuesta: 'Ns',
         isCorrect: false
       },
       {
-        textoRespuesta: "St",
+        textoRespuesta: 'St',
         isCorrect: true
       },
       {
-        textoRespuesta: "Tcu",
+        textoRespuesta: 'Tcu',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "8 - Si una masa de aire seco sube adiabáticamente sin llegar a la saturación, esta se enfriará",
+    titulo: '8 - Si una masa de aire seco sube adiabáticamente sin llegar a la saturación, esta se enfriará',
     opciones: [
       {
-        textoRespuesta: "1ºC cada 1000 pies",
+        textoRespuesta: '1ºC cada 1000 pies',
         isCorrect: false
       },
       {
-        textoRespuesta: "3ºC cada 1000 pies",
+        textoRespuesta: '3ºC cada 1000 pies',
         isCorrect: true
       },
       {
-        textoRespuesta: "2ºC cada 1000 pies",
+        textoRespuesta: '2ºC cada 1000 pies',
         isCorrect: false
       },
       {
-        textoRespuesta: "15ºC cada 1000 pies",
+        textoRespuesta: '15ºC cada 1000 pies',
         isCorrect: false
       }
     ]
   }
 ];
-
 
 export default preguntas;

@@ -512,10 +512,6 @@ const preguntas = [
     titulo: '25. Cuando en un mensaje ha habido un error en la transmisión, el piloto comunica la versión correcta diciendo:',
     opciones: [
       {
-        textoRespuesta: 'Negativo, repito de nuevo',
-        isCorrect: false
-      },
-      {
         textoRespuesta: 'Error, repito de nuevo',
         isCorrect: false
       },

@@ -1,168 +1,169 @@
 const preguntas = [
   {
-    titulo: "1 - ¿Autorizado a despegar pista 03 Que tipo de mensaje es?",
+    titulo: '1 - ¿Autorizado a despegar pista 03 Que tipo de mensaje es?',
     opciones: [
       {
-        textoRespuesta: "Seguridad",
+        textoRespuesta: 'Seguridad',
         isCorrect: true
       },
       {
-        textoRespuesta: "Urgencia",
+        textoRespuesta: 'Urgencia',
         isCorrect: false
       },
       {
-        textoRespuesta: "Control",
+        textoRespuesta: 'Control',
         isCorrect: false
       },
       {
-        textoRespuesta: "Socorro",
+        textoRespuesta: 'Socorro',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "2 - Si es requerido para reportar su altura, a que clave del código Q tendrá que referirse",
+    titulo: '2 - Si es requerido para reportar su altura, a que clave del código Q tendrá que referirse',
     opciones: [
       {
-        textoRespuesta: "QSI",
+        textoRespuesta: 'QSI',
         isCorrect: false
       },
       {
-        textoRespuesta: "QFE",
+        textoRespuesta: 'QFE',
         isCorrect: true
       },
       {
-        textoRespuesta: "QNH",
+        textoRespuesta: 'QNH',
         isCorrect: false
       },
       {
-        textoRespuesta: "QDM",
+        textoRespuesta: 'QDM',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "3 - ¿Cómo debe informar un piloto a la torre de control que está listo para el despegue?",
+    titulo: '3 - ¿Cómo debe informar un piloto a la torre de control que está listo para el despegue?',
     opciones: [
       {
-        textoRespuesta: "Listo para el despegue",
+        textoRespuesta: 'Listo para el despegue',
         isCorrect: false
       },
       {
-        textoRespuesta: "Listo para alinear",
+        textoRespuesta: 'Listo para alinear',
         isCorrect: false
       },
       {
-        textoRespuesta: "Listo para partir",
+        textoRespuesta: 'Listo para partir',
         isCorrect: false
       },
       {
-        textoRespuesta: "Listo para salida o listo",
+        textoRespuesta: 'Listo para salida o listo',
         isCorrect: true
       }
     ]
   },
   {
-    titulo: "4 - El mensaje dirigido a un centro de control de área \"requiero vectores radar para rodear área de mal tiempo\" es",
+    titulo: '4 - El mensaje dirigido a un centro de control de área "requiero vectores radar para rodear área de mal tiempo" es',
     opciones: [
       {
-        textoRespuesta: "Un mensaje de seguridad en vuelo",
+        textoRespuesta: 'Un mensaje de seguridad en vuelo',
         isCorrect: true
       },
       {
-        textoRespuesta: "Un mensaje meteorológico",
+        textoRespuesta: 'Un mensaje meteorológico',
         isCorrect: false
       },
       {
-        textoRespuesta: "Un mensaje relativo a la localización",
+        textoRespuesta: 'Un mensaje relativo a la localización',
         isCorrect: false
       },
       {
-        textoRespuesta: "Un mensaje de movimiento",
+        textoRespuesta: 'Un mensaje de movimiento',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "5 - ¿Como debe terminar un piloto la colación de una autorización ATC?",
+    titulo: '5 - ¿Como debe terminar un piloto la colación de una autorización ATC?',
     opciones: [
       {
-        textoRespuesta: "Con la palabra WILCO",
+        textoRespuesta: 'Con la palabra WILCO',
         isCorrect: false
       },
       {
-        textoRespuesta: "Con el indicativo de llamada de la estación de tierra ATC",
+        textoRespuesta: 'Con el indicativo de llamada de la estación de tierra ATC',
         isCorrect: false
       },
       {
-        textoRespuesta: "Con su indicativo de llamada",
+        textoRespuesta: 'Con su indicativo de llamada',
         isCorrect: true
       },
       {
-        textoRespuesta: "Con la palabra ROGER",
+        textoRespuesta: 'Con la palabra ROGER',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "6 - Si un piloto necesita realizar una transmisión a ciegas, la misma se debe hacer",
+    titulo: '6 - Si un piloto necesita realizar una transmisión a ciegas, la misma se debe hacer',
     opciones: [
       {
-        textoRespuesta: "Solo durante vuelos VFR",
+        textoRespuesta: 'Solo durante vuelos VFR',
         isCorrect: false
       },
       {
-        textoRespuesta: "Dos veces en la frecuencia designada",
+        textoRespuesta: 'Dos veces en la frecuencia designada',
         isCorrect: true
       },
       {
-        textoRespuesta: "Solamente una vez en la frecuencia designada",
+        textoRespuesta: 'Solamente una vez en la frecuencia designada',
         isCorrect: false
       },
       {
-        textoRespuesta: "Solamente en la frecuencia de emergencia",
+        textoRespuesta: 'Solamente en la frecuencia de emergencia',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "7 - ¿Que significa AFIS?",
+    titulo: '7 - ¿Que significa AFIS?',
     opciones: [
       {
-        textoRespuesta: "Servicio automático de información",
+        textoRespuesta: 'Servicio automático de información',
         isCorrect: false
       },
       {
-        textoRespuesta: "Servicio de información de vuelo de aeródromo",
+        textoRespuesta: 'Servicio de información de vuelo de aeródromo',
         isCorrect: true
       },
       {
-        textoRespuesta: "Área fija de información",
+        textoRespuesta: 'Área fija de información',
         isCorrect: false
       },
       {
-        textoRespuesta: "Todas son falsas",
+        textoRespuesta: 'Todas son falsas',
         isCorrect: false
       }
     ]
   },
   {
-    titulo: "8 - ¿Cuál es el indicativo en radiotelefonía para la estación que presta servicios de control de movimientos en superficie de las aeronaves en la zona de maniobras?",
+    titulo:
+      '8 - ¿Cuál es el indicativo en radiotelefonía para la estación que presta servicios de control de movimientos en superficie de las aeronaves en la zona de maniobras?',
     opciones: [
       {
-        textoRespuesta: "Torre",
+        textoRespuesta: 'Torre',
         isCorrect: false
       },
       {
-        textoRespuesta: "Control",
+        textoRespuesta: 'Control',
         isCorrect: false
       },
       {
-        textoRespuesta: "Aproximación",
+        textoRespuesta: 'Aproximación',
         isCorrect: false
       },
       {
-        textoRespuesta: "Tierra",
+        textoRespuesta: 'Tierra',
         isCorrect: true
       }
     ]
